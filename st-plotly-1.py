@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 st.header('Fuel efficiency (1970-1982)')
-df = pd.read_csv('https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/mpg.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/ArtMarciano/datasets/refs/heads/main/mpg.csv')
 df.dropna(inplace=True)
 fig = px.scatter(
     df,
